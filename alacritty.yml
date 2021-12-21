@@ -78,30 +78,35 @@ key_bindings:
   - { key: C, mods: Control|Shift, action: Copy }
 #background: '#282a36'
 colors:
-  # Default colors
+  cursor:
+    text: '#fefff2'
+    cursor: '#f0cc09'
+
+  selection:
+    text: '#b5b5b5'
+    background: '#18354f'
+
   primary:
     background: '#001B26'
-    foreground: '#f8f8f2'
+    foreground: '#ffffff'
 
-  # Normal colors
   normal:
     black: '#000000'
-    red: '#ff5555'
-    green: '#50fa7b'
-    yellow: '#f1fa8c'
-    blue: '#caa9fa'
-    magenta: '#ff79c6'
-    cyan: '#8be9fd'
-    white: '#bfbfbf'
+    red: '#ff0000'
+    green: '#38de21'
+    yellow: '#ffe50a'
+    blue: '#1460d2'
+    magenta: '#ff005d'
+    cyan: '#00bbbb'
+    white: '#bbbbbb'
 
-  # Bright colors
   bright:
-    black: '#575b70'
-    red: '#ff6e67'
-    green: '#5af78e'
-    yellow: '#f4f99d'
-    blue: '#caa9fa'
-    magenta: '#ff92d0'
-    cyan: '#9aedfe'
-    white: '#e6e6e6'
-theme: Dracula
+    black: '#555555'
+    red: '#f40e17'
+    green: '#3bd01d'
+    yellow: '#edc809'
+    blue: '#5555ff'
+    magenta: '#ff55ff'
+    cyan: '#6ae3fa'
+    white: '#ffffff'
+theme: Cobalt-2
