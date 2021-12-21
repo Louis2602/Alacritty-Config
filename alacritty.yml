@@ -1,32 +1,3 @@
-colors:
-  # Default colors
-  primary:
-    background: "#1e2127"
-    # background: "#2E3440"
-    foreground: "#D8DEE9"
-
-  # Normal colors
-  normal:
-    black: "#3B4252"
-    red: "#BF616A"
-    green: "#A3BE8C"
-    yellow: "#EBCB8B"
-    blue: "#81A1C1"
-    magenta: "#B48EAD"
-    cyan: "#88C0D0"
-    white: "#abb2bf"
-
-  # Bright colors
-  bright:
-    black: "#5c6370"
-    red: "#e06c75"
-    green: "#98c379"
-    yellow: "#d19a66"
-    blue: "#61afef"
-    magenta: "#c678dd"
-    cyan: "#56b6c2"
-    white: "#ECEFF4"
-
 shell:
   program: D:\\Git\\bin\\bash.exe
   args:
@@ -34,7 +5,7 @@ shell:
 
 working_directory: C:\\Users\\KTSX2
 
-background_opacity: 0.8
+background_opacity: 0.5
 
 font:
   normal:
@@ -52,6 +23,8 @@ font:
 
   # Point size 
   size: 11.0
+
+  ligatures: true
 
   offset:
     x: 0
@@ -71,6 +44,13 @@ window:
     x: 4
     y: 4
   decorations: none
+
+  dynamic_title: true
+
+  # selection:
+  semantic_escape_chars: ',│`|:"'' ()[]{}<>'
+  save_to_clipboard: true
+  live_config_reload: true
 
 cursor:
   style: Block
@@ -93,3 +73,35 @@ selection:
   save_to_clipboard: true
 
 live_config_reload: true
+key_bindings:
+  - { key: V, mods: Control|Shift, action: Paste }
+  - { key: C, mods: Control|Shift, action: Copy }
+#background: '#282a36'
+colors:
+  # Default colors
+  primary:
+    background: '#001B26'
+    foreground: '#f8f8f2'
+
+  # Normal colors
+  normal:
+    black: '#000000'
+    red: '#ff5555'
+    green: '#50fa7b'
+    yellow: '#f1fa8c'
+    blue: '#caa9fa'
+    magenta: '#ff79c6'
+    cyan: '#8be9fd'
+    white: '#bfbfbf'
+
+  # Bright colors
+  bright:
+    black: '#575b70'
+    red: '#ff6e67'
+    green: '#5af78e'
+    yellow: '#f4f99d'
+    blue: '#caa9fa'
+    magenta: '#ff92d0'
+    cyan: '#9aedfe'
+    white: '#e6e6e6'
+theme: Dracula
