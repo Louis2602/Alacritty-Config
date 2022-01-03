@@ -35,8 +35,8 @@ font:
 
 window:
   dimensions:
-    columns: 140
-    lines: 37
+    columns: 211
+    lines: 57
   position:
     x: 6
     y: 8
@@ -87,7 +87,7 @@ colors:
     background: '#18354f'
 
   primary:
-    background: '#001B26'
+    background: '#132738'
     foreground: '#ffffff'
 
   normal:
