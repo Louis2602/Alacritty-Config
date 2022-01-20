@@ -3,22 +3,21 @@ shell:
   args:
     - --login
 
-working_directory: C:\\Users\\KTSX2
+working_directory: C:\\Users\\Admins
 
-background_opacity: 0.5
-
+background_opacity: 0.7
 font:
   normal:
-    family: "Fira Code"
+    family: "FiraCode NF"
     style: Regular
   bold:
-    family: "Fira Code"
+    family: "FiraCode NF"
     style: Bold
   italic:
-    family: "Fira Code"
+    family: "FiraCode NF"
     style: Italic
   bold_italic:
-    family: "Fira Code"
+    family: "FiraCode NF"
     style: Bold Italic
 
   # Point size 
@@ -78,35 +77,30 @@ key_bindings:
   - { key: C, mods: Control|Shift, action: Copy }
 #background: '#282a36'
 colors:
-  cursor:
-    text: '#fefff2'
-    cursor: '#f0cc09'
-
-  selection:
-    text: '#b5b5b5'
-    background: '#18354f'
-
+  # Default colors
   primary:
-    background: '#132738'
-    foreground: '#ffffff'
+    background: '#282a36'
+    foreground: '#f8f8f2'
 
+  # Normal colors
   normal:
     black: '#000000'
-    red: '#ff0000'
-    green: '#38de21'
-    yellow: '#ffe50a'
-    blue: '#1460d2'
-    magenta: '#ff005d'
-    cyan: '#00bbbb'
-    white: '#bbbbbb'
+    red: '#ff5555'
+    green: '#50fa7b'
+    yellow: '#f1fa8c'
+    blue: '#0077c2'
+    magenta: '#ff79c6'
+    cyan: '#21c7c7'
+    white: '#bfbfbf'
 
+  # Bright colors
   bright:
-    black: '#555555'
-    red: '#f40e17'
-    green: '#3bd01d'
-    yellow: '#edc809'
-    blue: '#5555ff'
-    magenta: '#ff55ff'
-    cyan: '#6ae3fa'
-    white: '#ffffff'
-theme: Cobalt-2
+    black: '#575b70'
+    red: '#ff6e67'
+    green: '#5af78e'
+    yellow: '#f4f99d'
+    blue: '#caa9fa'
+    magenta: '#ff92d0'
+    cyan: '#21c7c7'
+    white: '#e6e6e6'
+theme: Dracula
